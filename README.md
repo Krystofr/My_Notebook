@@ -19,7 +19,9 @@ Application Interface:
 -> Ability to switch between app theme (Dark Theme) from navigation drawer.
 
 Required Dependencies: build.gradle(Module:app)
+
   //Room database
+  
     implementation 'androidx.room:room-runtime:2.2.5'
     annotationProcessor 'androidx.room:room-compiler:2.2.5'
     implementation 'androidx.paging:paging-runtime:2.1.2'
