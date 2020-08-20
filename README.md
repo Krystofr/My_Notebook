@@ -26,7 +26,7 @@ Required Dependencies: build.gradle(Module:app)
     annotationProcessor 'androidx.room:room-compiler:2.2.5'
     implementation 'androidx.paging:paging-runtime:2.1.2'
     testImplementation 'androidx.room:room-testing:2.2.5'
-    
+   
     //Material Drawer
         implementation('com.mikepenz:materialdrawer:7.0.0@aar') {
             transitive = true
