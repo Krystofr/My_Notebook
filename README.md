@@ -17,3 +17,15 @@ Used as a local backend database to perform the following tasks on user entered 
 Application Interface:
 -> Ability to share notes to 3rd party external applications(WhatsApp, Gmail, Instagram, Facebook, G-Drive etc).
 -> Ability to switch between app theme (Dark Theme) from navigation drawer.
+
+Required Dependencies: build.gradle(Module:app)
+  //Room database
+    implementation 'androidx.room:room-runtime:2.2.5'
+    annotationProcessor 'androidx.room:room-compiler:2.2.5'
+    implementation 'androidx.paging:paging-runtime:2.1.2'
+    testImplementation 'androidx.room:room-testing:2.2.5'
+    
+    //Material Drawer
+        implementation('com.mikepenz:materialdrawer:7.0.0@aar') {
+            transitive = true
+        }
