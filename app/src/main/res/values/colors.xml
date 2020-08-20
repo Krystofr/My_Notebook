@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3700B3</color> -->
+
+    <color name="colorPrimary">#AD1457</color>
+    <color name="colorPrimaryDark">#AD1457</color>
+    <color name="colorAccent">#AD1457</color>
+    <color name="view_backg_color">#c7c7C7</color>
+    <color name="color_holder_text">#83777380</color>
+    <color name="bg">#AD1457</color>
+    <color name="bg1">#EC407A</color>
+    <color name="card_bg">#F8F7F7</color>
+
+        <!--  colors for dark theme -->
+    <color name="colorPrimary_dark">#212121</color>
+    <color name="colorAccent_dark" >#EC407A</color>
+    <color name="colorPrimaryDark_dark" >#DE000000</color>
+</resources>
